@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Free Ebooks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/eicon.png" type="image/x-icon" />
+   <link rel="stylesheet" href="ind.css" type="text/css" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:/Users/Hasan/Desktop/templates/boots/css/bootstrap.min.css">
+    <link href = "http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet"> 
+
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Computer Science</h1>      
+  
+  </div>
+</div>
+<hr />
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading"><h4>JavaScript/jQuery-Jon Duckett</h4></div>
+        <div class="panel-body"><img src="images/js.jpg" class="img-responsive center"  style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="files/js.pdf" download="JavaScript/jQuery-Jon Duckett.pdf" ><button type="button" class="btn btn-primary btn-block">Download!</button></a> </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading" ><h4>OOP in C++ Robert Lafore</h4></div>
+        <div class="panel-body"><img src="images/oop.jpg" style="width:100%" alt="Image" /></div>
+        <div class="panel-footer"><button type="button" class="btn btn-primary btn-block">Download!</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading"><h4></h4>Let Us C-Yashwant Kenetkar</div>
+        <div class="panel-body"><img src="images/c.jpg" style="width:100%" alt="Image" /></div>
+        <div class="panel-footer"><button type="button" class="btn btn-primary btn-block">Download!</button></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading"><h4>Computer Organization-David Patterson</h4></div>
+        <div class="panel-body"><img src="images/cod.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><button type="button" class="btn btn-primary btn-block">Download!</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading"><h4>Head First Java</h4></div>
+        <div class="panel-body"><img src="images/hfj.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="files/hfjava.pdf" download="Head First Java.pdf" ><button type="button" class="btn btn-primary btn-block">Download!</button></a> </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading"><h4>HTML & CSS-Jon Duckett</h4></div>
+        <div class="panel-body"><img src="images/htm2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="files/Wileyhtm.pdf" download="HTML & CSS-Jon Duckett.pdf" ><button type="button" class="btn btn-primary btn-block" data-toggle="tooltip" title="Hooray!">Download!</button></a> </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<br><br>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+      <script src = "https://code.jquery.com/jquery-3.0.0.js"></script>
+      <script src = "http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+   <script>
+         $(function() {
+            $( "#myNavbar" ).tabs();
+         });
+		
+			$( ".ab" ).dialog({modal: "true" , hide: "explode"});
+			
+		$(function(){
+    $("#toggle").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+$('[data-toggle="tooltip"]').tooltip();   
+
+$(window).scroll(function(){
+	$("#madeby").fadeIn(1000);
+	});
+      </script>
+</body>
+</html>
